@@ -1,0 +1,270 @@
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgba(3, 3, 3, 0.925);
+            color: white;
+            padding: 100px 300px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        section {
+            background-color: rgb(38 62 62);
+        }
+        /* For heading  */
+        nav {
+            margin-bottom: 20px;
+            padding: 70px 40px 40px 40px;
+            margin-left: 150px;
+        }
+        /* For logo */
+        .log {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+        }
+        /* logo circle1 */
+        .circle1 {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #fff;
+            box-sizing: border-box;
+            animation: animateCircle1 5s linear infinite;
+            background-color: rgba(35, 44, 44, 0.925);
+        }
+          /* logo circle2 */
+        .circle2 {
+            position: absolute;
+            top: 9px;
+            left: 9px;
+            width: calc(100% - 18px);
+            height: calc(100% - 18px);
+            border-radius: 50%;
+            border: 4px solid rgba(22, 195, 247, 0.863);
+            background-color: rgba(22, 195, 247, 0.863);
+        }
+          /* logo circle3 */
+        .circle3 {
+            text-align: center;
+            font-size: 34px;
+            color: black;
+            padding-top: 16px;
+        }
+          /* heading */
+        .heading {
+            margin-left: 120px;
+        }
+        /* heading h1 style */
+        .heading h1 {
+            color: #fc6060;
+            font-size: 70px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* heading h4 style */
+        .heading h4 {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 100;
+            margin-top: -10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* main div section */
+        main {
+            padding: 0px 80px 30px 80px;
+        }
+        /* flex-box starts here */
+        /* container using flex box */
+        .container {
+            display: flex;
+            margin-bottom: 40px;
+        }
+        /* container box1 */
+        .box1 {
+            background-color:  #ffa31a;
+            flex-basis: 50%;
+            padding: 30px;
+            text-align: center;
+        }
+          /* container box2 */
+        .box2 {
+            background-color: rgba(22, 195, 247, 0.863);
+            flex-basis: 50%;
+            padding: 30px;
+            text-align: center;
+        }
+          /* container h1 style */
+        .container h1 {
+            font-size: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 900;
+            letter-spacing: 6px;
+            margin-bottom: 5px;
+            margin-top: 4px;
+        }
+          /* container h3 style */
+        .container h3 {
+            font-size: 20px;
+            font-weight: 900;
+            margin-bottom: 8px;
+            margin-top: 8px;
+        }
+          /* black-icon */
+        .black-icon {
+            color: rgba(0, 0, 0, 0.678);
+            font-size: 40px;
+            letter-spacing: 6px;
+            margin-bottom: 5px;
+        }
+         /* red-icon */
+        .red-icon {
+            color: rgba(226, 9, 9, 0.781);
+            font-size: 40px;
+            letter-spacing: 6px;
+        }
+        /* big-icon */
+        .b-icon{
+            color: rgba(0, 0, 0, 0.678);
+            font-size: 30px;
+            text-align: center;
+        }
+         /* container second box using  one flex box*/
+        .second-box{
+            background-color:  #fc6060;
+            padding: 30px 10px 30px 30px;
+            margin-bottom: 30px;
+        }
+         /* container second box using  2 flex box*/
+        .container-2{
+            display: flex;
+            margin-bottom: 20px;
+        }
+         /* container2 box1*/
+        .container-2-box1{
+            flex-basis: 50%;
+        }
+        /* container2 box2*/
+        .container-2-box2{
+            flex-basis: 50%;
+            margin-top: 25px;
+        }
+        /* third-box container box using  flex box style*/
+        .third-box{
+            background-color: rgba(22, 195, 247, 0.863);
+            padding: 20px 30px 30px;
+            display: flex;
+            margin-bottom: 30px;
+        }
+         /* container3 box1*/
+        .container-3-box1{
+            flex-basis: 50%;
+        }
+        /* container3 box2*/
+        .container-3-box2{
+            flex-basis: 50%;
+            padding: 30px 0px 0px 20px;
+        }
+        /* margin-top for paragraph */
+        .p-t{
+            margin-top: 10px;
+        }
+        /* common divider using flexbox without 
+        background color can be using when 
+        we need to divide 50% 50% of 2 box*/
+        .divider{
+            display: flex;
+            margin-bottom: 30px;
+        }
+        .divider-box1{
+            flex-basis: 50%;
+        }
+        .divider-box2{
+            flex-basis: 50%;
+        }
+       /*container-4-box1*/
+        .container-4-box1 {
+            background-color:  #fc6060;
+            padding: 30px;
+            text-align: center;
+        }
+         /*container-4-box2*/
+        .container-4-box2{
+            background-color:  #ffa31a;
+            padding: 30px;
+            text-align: center;
+        }
+        /* h3 title */
+        .h3{
+            font-size: 20px;
+            margin-bottom: 5px;
+            font-weight: 900;
+            letter-spacing: 3px;
+        }
+        /* h1 title */
+        .h1{
+            font-size: 40px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        /* h1 in bold*/
+        .h1-b{
+            font-size: 40px;
+            font-weight: 900;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            letter-spacing:2px;
+        }
+        /* paragraph font-size */
+       .p-s{
+           font-size: 14px;
+       }
+       /* fifth-box flexbox */
+        .fifth-box{
+            background-color: rgba(22, 195, 247, 0.863);
+        }
+         /* container-5-box1 */
+        .container-5-box1{
+            flex-basis: 70%;
+            padding: 20px 20px 20px 30px;
+        }
+        /* container-5-box2 */
+        .container-5-box2{
+            flex-basis: 30%;
+            padding: 20px 20px 20px 20px;
+        }
+       /* sixth-box using flexbox */
+        .sixth-box{
+            background-color:  #ffa31a;
+        }
+        /* container-6-box1 */
+        .container-6-box1{
+            flex-basis: 70%;
+            padding: 20px 20px 20px 30px;
+        }
+        /* container-6-box2 */
+        .container-6-box2{
+            flex-basis: 30%;
+            padding: 20px 10px 20px 20px;
+        }
+        /* ontainer-7-box1 */
+        .container-7-box1{
+            background-color: rgba(22, 195, 247, 0.863);
+            text-align: center;
+            padding:30px 30px 20px 30px;
+        }
+        /* container-7-box2 */
+        .container-7-box2{
+            background-color:  #fc6060;
+            text-align: center;
+            padding:30px 30px 20px 30px; 
+        }
+
